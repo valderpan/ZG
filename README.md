@@ -1,2 +1,2 @@
-# ZhongGuo
-Scripts used in the Zhongguo project
+# ZG
+Scripts used in the ZG project
