@@ -4,21 +4,6 @@
 # date: 2021/12/30
 
 
-'''
-%prog <bam.cov> <genome.fai> (bam.cov.stat)
-
-Count the sequencing coverage on each chromosome
-
->>> bedtools genomecov -bga -pc -ibam ${bam} > ${bam}.cov
->>> python %prog ${bam}.cov > ${bam}.cov.stat
-
-__author__ = 'Haoran Pan'
-__mail__ = 'panpyhr@gmail.com'
-__date__ = '20211230'
-__version__ = 'v1.0'
-'''
-
-
 import sys
 import pandas as pd
 
