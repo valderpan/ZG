@@ -3,13 +3,6 @@
 # @Author : Haoran Pan
 # date: 2021/8/12
 
-'''
-%prog <gff> <gff_type>
-
-Convert gff format to bed format
-Note: only the content after ID= is output
-'''
-
 
 import re
 import sys
