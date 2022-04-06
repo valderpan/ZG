@@ -9,7 +9,6 @@ from path import Path
 from Bio.Seq import Seq
 from Bio import SeqIO
 import argparse
-sys.path.append('/share/home/stu_panhaoran/scripts')
 import SetLog as log
 
 
