@@ -3,22 +3,6 @@
 # @Author : Haoran Pan
 # date: 2021/4/18
 
-'''
-%prog <GeneCount file> [Orthogroups.GeneCount2venn.tab]
-
-Gene family clustering based on orthofinder results
-GeneCount file : Orthogroups.GeneCount.tsv
-Output : 
-    Orthogroups.GeneCount2venn.tab, which can import Jvenn and output the image
-    *.group.txt, which is the OGid matched to each species
-
->>> python %prog Orthogroups.GeneCount.tsv [Orthogroups.GeneCount2venn.tab]
-
-__author__ = Haoran Pan
-__mail__ = panpyhr@gmail.com
-__date__ = 20220222
-__version__ = v4.3
-'''
 
 import sys
 import re
