@@ -7,7 +7,6 @@
 import os
 import re
 import sys
-sys.path.append('/public1/home/stu_panhaoran/biosoft/pyhr/scripts')
 import argparse
 from path import Path
 import pandas as pd
