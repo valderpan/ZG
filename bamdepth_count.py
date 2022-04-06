@@ -4,20 +4,6 @@
 # date: 2020/11/28
 
 
-'''
-%prog <depth.info> [depth.info.stat]
-
-Statistics on the results of samtools depth
-
->>> samtools depth -aa bam > depth.info
->>> python %prog depth.info depth.info.stat
-
-__author__ = 'Haoran Pan'
-__mail__ = 'panpyhr@gmail.com'
-__date__ = '20201128'
-__version__ = 'v1.0'
-'''
-
 
 import sys
 
